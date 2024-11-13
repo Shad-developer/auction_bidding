@@ -24,7 +24,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use(errorHandler);
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://auction-bidding-coh9.onrender.com",
     credentials: true,
   })
 );
